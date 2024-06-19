@@ -8,3 +8,7 @@ ARG COURSE
 ARG TRAINER 
 RUN echo "Course is ${COURSE}, trainer is ${TRAINER}"
 
+LABEL app="spring"
+RUN echo "value1 is ${COURSE}, value2 is ${TRAINER}"
+
+
